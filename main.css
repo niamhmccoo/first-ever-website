@@ -26,6 +26,7 @@ img {
   column-count: 3;
   column-gap: 0;
   break-inside: avoid;
+  justify-content: flex-start;
 }
 .masonry-brick {
   margin: 0 8px 8px 0;
