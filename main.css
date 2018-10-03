@@ -1,0 +1,32 @@
+body {
+  padding: 40px;
+}
+ul {
+  list-style: none;
+  float: right;
+}
+.header-container {
+   overflow: auto;
+}
+h1 {
+  display: inline;
+}
+img {
+  width: 27%;
+  padding: 14px 1.5%;
+}
+.masonry-container {
+  background-color: red;
+  display: flex;
+  overflow: scroll;
+  flex-flow: column wrap;
+  max-height: 800px;
+  width: 100%;
+  margin-left: -8px;
+  column-count: 3;
+  column-gap: 0;
+  break-inside: avoid;
+}
+.masonry-brick {
+  margin: 0 8px 8px 0;
+}
