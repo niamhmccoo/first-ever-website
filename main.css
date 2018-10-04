@@ -13,12 +13,14 @@ h1 {
 }
 img {
   width: 27%;
+  height: auto;
   padding: 14px 1.5%;
+  position: relative;
+  overflow-y: scroll;
 }
 .masonry-container {
-  background-color: red;
   display: flex;
-  overflow: scroll;
+  overflow-y: scroll;
   flex-flow: column wrap;
   max-height: 800px;
   width: 100%;
@@ -26,8 +28,9 @@ img {
   column-count: 3;
   column-gap: 0;
   break-inside: avoid;
-  justify-content: flex-start;
 }
-.masonry-brick {
-  margin: 0 8px 8px 0;
+.images {
+  flex-flow: column wrap;
+  align-items: flex-start;
+  align-content: space-around;
 }
