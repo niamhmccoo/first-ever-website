@@ -1,36 +1,27 @@
 body {
   padding: 40px;
 }
+
 ul {
   list-style: none;
   float: right;
 }
+
 .header-container {
    overflow: auto;
 }
+
 h1 {
   display: inline;
 }
-img {
-  width: 27%;
-  height: auto;
-  padding: 14px 1.5%;
-  position: relative;
-  overflow-y: scroll;
-}
+
 .masonry-container {
-  display: flex;
-  overflow-y: scroll;
-  flex-flow: column wrap;
-  max-height: 800px;
-  width: 100%;
-  margin-left: -8px;
-  column-count: 3;
-  column-gap: 0;
-  break-inside: avoid;
+    column-count: 3;
+    column-gap: 1em;
 }
-.images {
-  flex-flow: column wrap;
-  align-items: flex-start;
-  align-content: space-around;
+
+img {
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
 }
