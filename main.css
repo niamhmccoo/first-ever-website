@@ -39,6 +39,14 @@ h4 {
 
 }
 
+h5 {
+
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+
+}
+
 p {
 
   margin-top: 0;
@@ -64,6 +72,8 @@ a {
 a:hover {
 
   color: grey;
+  font-weight: bold;
+  transition: color .5s;
 
 }
 
@@ -80,7 +90,7 @@ main {
 
 }
 
-.eternityanyways, .honeyimhome, .selvedge {
+.eternityanyways {
 
   display: block;
   overflow: hidden;
@@ -91,7 +101,7 @@ main {
 
 }
 
-.selvedge81 {
+.honeyimhome {
 
   display: block;
   overflow: hidden;
@@ -99,6 +109,112 @@ main {
   column-gap: 4vw;
   padding-bottom: 5%;
   min-width: 100%;
+
+}
+
+.selvedge {
+
+  display: block;
+  overflow: hidden;
+  column-count: 2;
+  column-gap: 4vw;
+  padding-bottom: 5%;
+  min-width: 100%;
+
+}
+
+.fatm {
+
+  display: block;
+  overflow: hidden;
+  column-count: 2;
+  column-gap: 4vw;
+  padding-bottom: 5%;
+  min-width: 100%;
+
+}
+
+.findingdivismorecrescent {
+
+  display: block;
+  overflow: hidden;
+  column-count: 2;
+  column-gap: 4vw;
+  padding-bottom: 5%;
+  min-width: 100%;
+
+}
+
+.worksuite {
+
+  display: block;
+  overflow: hidden;
+  column-count: 2;
+  column-gap: 4vw;
+  padding-bottom: 5%;
+  min-width: 100%;
+
+}
+
+.buffalo {
+
+  display: block;
+  overflow: hidden;
+  column-count: 2;
+  column-gap: 4vw;
+  padding-bottom: 5%;
+  min-width: 100%;
+
+}
+
+.finbarrnolan {
+
+  display: block;
+  overflow: hidden;
+  column-count: 2;
+  column-gap: 4vw;
+  padding-bottom: 5%;
+  min-width: 100%;
+
+}
+
+.bandits {
+
+  display: block;
+  overflow: hidden;
+  column-count: 2;
+  column-gap: 4vw;
+  padding-bottom: 5%;
+  min-width: 100%;
+
+}
+
+.dennismcnulty {
+
+  display: block;
+  overflow: hidden;
+  column-count: 2;
+  column-gap: 4vw;
+  padding-bottom: 5%;
+  min-width: 100%;
+
+}
+
+.premonition {
+
+  display: block;
+  overflow: hidden;
+  column-count: 2;
+  column-gap: 4vw;
+  padding-bottom: 5%;
+  min-width: 100%;
+
+}
+
+.about {
+
+  display: block;
+  column-count: 1;
 
 }
 
@@ -140,13 +256,13 @@ footer {
 
 @media only screen and (max-width: 800px) {
 
-  main {
+main {
 
     column-count: 2;
 
   }
 
-  body {
+body {
 
     padding: 4em;
 
