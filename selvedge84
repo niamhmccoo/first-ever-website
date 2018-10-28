@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+  <title>niamh mccooey</title>
+</head>
+<body>
+  <nav>
+    <h1>niamh mccooey</h1>
+    <ul>
+      <li><a href="about.html">about</a></li>
+    </ul>
+  </nav>
+  <h4>Selvedge Magazine // Issue 84: Surface</h4>
+  <div class="selvedge">
+    <article>
+      <figure>
+        <img src="Selvedge/sv84/sv84.jpg" alt="Selvedge 84"></a>
+      </figure>
+      <p>
+        More and more we are surrounded by smooth surfaces, from screens to
+        kitchen counters, floors and cars. Clothing is increasingly constructed
+        from a narrow range of nylon and cotton fibre – while appealing to the
+        eye, these leave the hand starved of stimulus.
+      </p>
+      <p>
+        Issue 84 of Selvedge Magazine celebrates surface in all its forms; from
+        Anni Albers’ textural weaving, Jane and Mary Parminter’s shell gallery,
+        to Liciê Hunsche’s work with the fleece of Karakul sheep.
+      </p>
+      <p>
+        Claudy Jongstra’s spongy felts, Hildur Bjarnadóttir’s delicate sheers,
+        Nicola Kilmartin’s fulled tweeds and Julia Craig’s vintage satin and
+        lace, are all able to satisfy the hand as well as the eye.
+      </p>
+      <p>
+        <br>
+        Editors:</br>
+      </br>
+      Niamh McCooey
+      <br>
+      Polly Leonard
+    </p>
+    <a href="https://www.selvedge.org/">www.selvedge.org</a>
+  </article>

@@ -17,12 +17,6 @@ ul {
 
 }
 
-editors {
-
-  list-style: none;
-  
-}
-
 h1 {
 
   display: inline;
@@ -86,7 +80,7 @@ main {
 
 }
 
-.eternityanyways {
+.eternityanyways, .honeyimhome, .selvedge {
 
   display: block;
   overflow: hidden;
@@ -97,7 +91,7 @@ main {
 
 }
 
-.honeyimhome {
+.selvedge81 {
 
   display: block;
   overflow: hidden;
