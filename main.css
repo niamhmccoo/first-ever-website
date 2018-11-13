@@ -23,12 +23,6 @@ h1 {
 
 }
 
-h2 {
-
-  display: block;
-
-}
-
 h4 {
 
   margin-top: 0;
@@ -77,7 +71,34 @@ a:hover {
 
 }
 
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 2vw;
+  max-width: 33%;
+}
+/* .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4vw;
+} */
+.column-img: {
+  margin-top: 0;
+  vertical-align: middle;
+}
+img {
+  max-width: 26vw;
+}
 main {
+  display: flex;
+  align-items: flex-start;
+  min-width: 100%;
+  padding-bottom: 2vw;
+  padding-top: 4vw;
+  border-top: solid thin grey;
+}
+
+/* main {
 
   display: block;
   overflow: hidden;
@@ -88,20 +109,9 @@ main {
   min-width: 100%;
   border-top: solid thin grey;
 
-}
+} */
 
-.eternityanyways {
-
-  display: block;
-  overflow: hidden;
-  column-count: 2;
-  column-gap: 4vw;
-  padding-bottom: 5%;
-  min-width: 100%;
-
-}
-
-.honeyimhome {
+  /* .article-page {
 
   display: block;
   overflow: hidden;
@@ -110,106 +120,7 @@ main {
   padding-bottom: 5%;
   min-width: 100%;
 
-}
-
-.selvedge {
-
-  display: block;
-  overflow: hidden;
-  column-count: 2;
-  column-gap: 4vw;
-  padding-bottom: 5%;
-  min-width: 100%;
-
-}
-
-.fatm {
-
-  display: block;
-  overflow: hidden;
-  column-count: 2;
-  column-gap: 4vw;
-  padding-bottom: 5%;
-  min-width: 100%;
-
-}
-
-.findingdivismorecrescent {
-
-  display: block;
-  overflow: hidden;
-  column-count: 2;
-  column-gap: 4vw;
-  padding-bottom: 5%;
-  min-width: 100%;
-
-}
-
-.worksuite {
-
-  display: block;
-  overflow: hidden;
-  column-count: 2;
-  column-gap: 4vw;
-  padding-bottom: 5%;
-  min-width: 100%;
-
-}
-
-.buffalo {
-
-  display: block;
-  overflow: hidden;
-  column-count: 2;
-  column-gap: 4vw;
-  padding-bottom: 5%;
-  min-width: 100%;
-
-}
-
-.finbarrnolan {
-
-  display: block;
-  overflow: hidden;
-  column-count: 2;
-  column-gap: 4vw;
-  padding-bottom: 5%;
-  min-width: 100%;
-
-}
-
-.bandits {
-
-  display: block;
-  overflow: hidden;
-  column-count: 2;
-  column-gap: 4vw;
-  padding-bottom: 5%;
-  min-width: 100%;
-
-}
-
-.dennismcnulty {
-
-  display: block;
-  overflow: hidden;
-  column-count: 2;
-  column-gap: 4vw;
-  padding-bottom: 5%;
-  min-width: 100%;
-
-}
-
-.premonition {
-
-  display: block;
-  overflow: hidden;
-  column-count: 2;
-  column-gap: 4vw;
-  padding-bottom: 5%;
-  min-width: 100%;
-
-}
+} */
 
 .about {
 
@@ -229,16 +140,22 @@ article, figure {
 
 }
 
-img {
+/* img, a img {
 
   display: block;
-  margin: 0 auto 4vw auto;
   width: 100%;
+  margin: 0 auto 2vw auto;
+
+} */
+
+a img {
+
+  margin: 0 auto 4vw auto;
   transition: opacity 0.5s;
 
 }
 
-img:hover {
+a img:hover {
 
   opacity: .5;
 
@@ -254,7 +171,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
 
 main {
 
@@ -271,7 +188,7 @@ body {
 
 @media only screen and (max-width: 600px) {
 
-  main {
+  main, .article-page {
 
     column-count: 1;
 
@@ -282,4 +199,4 @@ body {
     padding: 1em;
 
   }
-}
+} */
