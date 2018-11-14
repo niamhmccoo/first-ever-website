@@ -74,28 +74,31 @@ a:hover {
 .row {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
   padding: 0 2vw;
   max-width: 33%;
 }
-/* .column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4vw;
-} */
+.column {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+}
 .column-img: {
   margin-top: 0;
   vertical-align: middle;
 }
 img {
-  max-width: 26vw;
+  max-width: 23vw;
 }
 main {
   display: flex;
   align-items: flex-start;
+  flex-flow: row wrap;
   min-width: 100%;
   padding-bottom: 2vw;
   padding-top: 4vw;
   border-top: solid thin grey;
+  justify-content: space-between;
 }
 
 /* main {
@@ -171,13 +174,38 @@ footer {
 
 }
 
-/* @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
 
-main {
+<main>
+      <div class="row">
+        <div class="column">
+          <a href="eternityanyways.html"><img src="eternityanyways1.jpg" alt="Eternity Anyways"></a>
+          <a href="Selvedge78.html"><img src="Selvedge/sv78/sv78.jpg" alt="Selvedge 78"></a>
+          <a href="fatm.html"><img src="FATM.jpg" alt="Foaming At The Mouth"></a>
+          <a href="selvedge82.html"><img src="Selvedge/sv82/sv82.jpg" alt="Selvedge 82"></a>
+          <a href="selvedge76.html"><img src="Selvedge/sv76/sv76.jpg" alt="Selvedge 76"></a>
+          <a href="selvedge75.html"><img src="Selvedge/sv75/sv75.jpg" alt="Selvedge 75"></a>
+          <a href="selvedge81.html"><img src="Selvedge/sv81/sv81.jpg" alt="Selvedge 81"></a>
+          <a href="bandits.html"><img src="BanditsInRuins.jpg" alt="Bandits In The Ruins"></a>
+          <a href="selvedge84.html"><img src="Selvedge/sv84/sv84.jpg" alt="Selvedge 84"></a>
+        </div>
+      </div>
 
-    column-count: 2;
-
-  }
+      <div class="row">
+        <div class="column">
+          <a href="honeyimhome.html"><img src="HoneyImHome/honeyimhome2.jpg" alt="Honey I'm Home"></a>
+          <a href="ffindingdivismorecrescent.html"><img src="Belfast.jpg" alt="Belfast"></a>
+          <a href="worksuite.html"><img src="ainemcbride.jpg" alt="Aine McBride"></a>
+          <a href="selvedge83.html"><img src="Selvedge/sv83/sv83.jpg" alt="Selvedge 83"></a>
+          <a href="selvedge79.html"><img src="Selvedge/sv79/sv79.jpg" alt="Selvedge 79"></a>
+          <a href="finbarrnolan.html"><img src="FinbarrNolan.jpg" alt="Finbarr Nolan"></a>
+          <a href="dennismcnulty.html"><img src="DennisMcNulty.jpg" alt="Dennis McNulty"></a>
+          <a href="selvedge77.html"><img src="Selvedge/sv77/sv77.jpg" alt="Selvedge 77"></a>
+          <a href="premonition.html"><img src="Premonition.jpg" alt="A Premonition Of The Act"></a>
+          <a href="selvedge80.html"><img src="Selvedge/sv80/sv80.jpg" alt="Selvedge 80"></a>
+        </div>
+      </div>
+</main>
 
 body {
 
@@ -199,4 +227,4 @@ body {
     padding: 1em;
 
   }
-} */
+}
